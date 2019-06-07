@@ -34,3 +34,40 @@ Ing. Franco Strada
 ****
 
 **Domanda**. Dare  un  diagramma  delle  classi,  relativo  ai  concetti evidenziati in neretto nell’enunciato. 
+
+****
+
+## Semafori p.2
+
+Spett. Ditta,
+
+In seguito alla sperimentazione sul campo del sistema di controllo del traffico veicolare sono 
+emerse alcune situazioni che richiedono un’evoluzione del sistema.
+
+In particolare, si è osservato che quando la lunghezza della tratta stradale controllata è maggiore di 500 metri spesso i tempi di attesa sono eccessivi e, di conseguenza, rallentano il traffico. 
+
+Per mitigare questo fenomeno, i nostri tecnici hanno proposto l’uso di quattro **sensori** di passaggio direzionale dei veicoli, per consentire al sistema di rilevare l’assenza di veicoli in transito su entrambi i lati della tratta. 
+
+Un **sensore in** sarà posizionato prima del semaforo blu (la distanza di posizionamento dipende 
+dalle caratteristiche della tratta) per rilevare il passaggio dei veicoli che arrivano dal lato blu.
+
+Un **sensore out** sarà posizionato all’altezza del semaforo bianco, per rilevare il passaggio dei 
+veicoli  arrivati  dal  lato  blu  che  hanno  completato  l’attraversamento  della  tratta.  
+
+Altri  due sensori  sono  posizionati  simmetricamente,  per  rilevare  il  passaggio  dei  veicoli  bianchi.
+
+Il comportamento del sistema deve essere modificato in modo da interrompereanticipatamente il ciclo verde in assenza di veicoli in transito. 
+
+Per evitare fenomeni di oscillazione, il ciclo verde deve  avere  una  durata  minima  *tempoMin*,  configurabile  dall’operatore  al  momento  della predisposizione del sistema sul campo.
+
+
+Restiamo in attesa di un vostro riscontro.
+
+Cordiali saluti, 
+Ing. Franco Strada  
+
+****
+
+**Domanda n.1.**  Dare un diagramma di classi, relativo ai concetti evidenziati in neretto negli enunciati Semaforo1 e Semaforo2.
+
+**Domanda n.2.** Disegnare il relativo diagramma dei casi d'uso(Semaforo1 e Semaforo2).
